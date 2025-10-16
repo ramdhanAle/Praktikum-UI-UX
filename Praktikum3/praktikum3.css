@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: absolute;
+    top: 1px;
+    left: 60px;
+}
+
+.logo {
+    width: 200px; /* Atur ukuran logo sesuai kebutuhan */
+}
+
+.container {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.profile-image {
+    flex: 0 0 200px; 
+    text-align: center;
+}
+
+.profile-image img {
+    max-width: 100%; 
+    border-radius: 8px; 
+}
+
+.story {
+    margin-top: 20px;
+}
+
+.social-links {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+}
+
+.social-links h3 {
+    margin: 0; /* Menghilangkan margin untuk judul */
+    color: #333; /* Warna judul */
+}
+
+.social-links a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.media-section {
+    display: flex;
+    justify-content: space-between; /* Mengatur jarak antara video dan foto */
+    padding: 1px; /* Menambahkan padding untuk sisi kiri dan kanan */
+    position: relative; /* Memastikan ini di luar kontainer */
+    margin: 0px auto; /* Mengatur margin agar terpusat */
+}
+
+.video-container {
+    flex: 0 0 300px; /* Mengatur lebar video di sisi kanan */
+    margin-left: 20px; /* Jarak antara foto dan video */
+}
+
+.video-container video {
+    width: 100%; /* Mengatur lebar video lebih kecil */
+    border-radius: 8px;
+    margin-bottom: 20px; /* Jarak antara video */
+}
+
+.photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1; /* Mengatur foto agar memenuhi sisa ruang */
+}
+
+.photos-container img {
+    width: 45%; /* Mengatur lebar foto lebih kecil */
+    max-width: 300px; /* Atur ukuran maksimum foto */
+    margin: 25px;
+    border-radius: 8px;
+}
