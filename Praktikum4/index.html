@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Halaman Web - Praktikum 4</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #005fa3;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            display: flex;
+            min-height: 500px;
+        }
+        aside {
+            background-color: #f2f2f2;
+            width: 25%;
+            padding: 20px;
+        }
+        article {
+            width: 75%;
+            padding: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 480px;
+            border: none;
+        }
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Praktikum 4: Layout Halaman Web</h1>
+    </header>
+
+    <nav>
+        <a href="profile.html" target="konten">Profil</a>
+        <a href="berita.html" target="konten">Berita</a>
+        <a href="kontak.html" target="konten">Kontak</a>
+    </nav>
+
+    <section>
+        <aside>
+            <h3>Menu Samping</h3>
+            <ul>
+                <li><a href="https://www.nurulfikri.ac.id/" target="_blank">Website Kampus</a></li>
+                <li><a href="https://elearning.nurulfikri.ac.id/" target="_blank">E-Learning</a></li>
+            </ul>
+        </aside>
+
+        <article>
+            <iframe name="konten" src="profil.html"></iframe>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 | Ramadhan Al Ghifari - 0110222137 - TI01</p>
+    </footer>
+</body>
+</html>

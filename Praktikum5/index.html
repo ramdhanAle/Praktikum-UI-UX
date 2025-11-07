@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 5 - CSS</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        header {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #005fa3;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #0077cc;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Praktikum 5: Penerapan CSS</h1>
+        <p>Mata Kuliah Pemrograman Web</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="about.html">Tentang</a>
+    </nav>
+
+    <main>
+        <section class="intro">
+            <h2>Selamat Datang di Halaman Utama</h2>
+            <p class="highlight">
+                Halaman ini menggunakan kombinasi **inline, internal, dan external CSS** untuk memperindah tampilan.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nisi veniam suscipit cum ex quae, earum necessitatibus reiciendis, quos commodi non ipsa iste, nulla molestiae qui nostrum distinctio tenetur eos!</p>
+        </section>
+
+        <section class="gallery">
+            <h3>Galeri Gambar</h3>
+             <div class="gallery-container">
+                <img src="https://picsum.photos/200/150?random=1" alt="Gambar 1">
+                <img src="https://picsum.photos/200/150?random=2" alt="Gambar 2">
+                <img src="https://picsum.photos/200/150?random=3" alt="Gambar 3">
+                <img src="https://picsum.photos/200/150?random=4" alt="Gambar 4">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | Ramadhan Al Ghifari - 0110222137 - TI01</p>
+    </footer>
+</body>
+</html>
